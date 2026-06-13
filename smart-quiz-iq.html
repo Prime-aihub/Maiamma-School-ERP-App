@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Smart Quiz & IQ Arena</title>
+
+<link rel="stylesheet" href="smart-quiz-iq.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+    <!-- Replace with GIF/Video later -->
+
+    <div class="hero-overlay">
+
+        <h1>🧠 SMART QUIZ & IQ ARENA</h1>
+
+        <p>
+            Challenge Your Mind.
+            Compete Globally.
+            Earn Recognition.
+        </p>
+
+        <button class="hero-btn">
+            Start Challenge
+        </button>
+
+    </div>
+
+</header>
+
+<nav class="topbar">
+
+    <h2>⚡ Intelligence Dashboard</h2>
+
+    <button id="themeToggle">
+        🌙 Theme
+    </button>
+
+</nav>
+
+<main class="container">
+
+    <section class="stats-grid">
+
+        <div class="neon-card">
+            <h3>Total Participants</h3>
+            <h2>12,480</h2>
+        </div>
+
+        <div class="neon-card">
+            <h3>Challenges Completed</h3>
+            <h2>52,311</h2>
+        </div>
+
+        <div class="neon-card">
+            <h3>Certificates Issued</h3>
+            <h2>8,725</h2>
+        </div>
+
+        <div class="neon-card">
+            <h3>Current Rank</h3>
+            <h2>#17</h2>
+        </div>
+
+    </section>
+
+    <section class="glass-card">
+
+        <h2>🎯 Challenge Categories</h2>
+
+        <div class="challenge-grid">
+
+            <div class="challenge-card">🧠 IQ Test</div>
+            <div class="challenge-card">🔍 Logical Reasoning</div>
+            <div class="challenge-card">➕ Aptitude Test</div>
+            <div class="challenge-card">🧩 Puzzle Arena</div>
+            <div class="challenge-card">⚡ Brain Challenges</div>
+            <div class="challenge-card">🚀 STEM Quiz</div>
+            <div class="challenge-card">🤖 AI Quiz</div>
+            <div class="challenge-card">🌌 Space Quiz</div>
+
+        </div>
+
+    </section>
+
+    <section class="glass-card">
+
+        <h2>🏆 Global Leaderboard</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Points</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>🥇 1</td>
+                    <td>Arjun</td>
+                    <td>9,850</td>
+                </tr>
+
+                <tr>
+                    <td>🥈 2</td>
+                    <td>Sneha</td>
+                    <td>9,420</td>
+                </tr>
+
+                <tr>
+                    <td>🥉 3</td>
+                    <td>Rohan</td>
+                    <td>9,180</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <section class="glass-card">
+
+        <h2>🎖 Achievement Badges</h2>
+
+        <div class="badge-grid">
+
+            <div class="badge">🏆 Genius</div>
+            <div class="badge">🧠 IQ Master</div>
+            <div class="badge">⚡ Speed Thinker</div>
+            <div class="badge">🚀 STEM Champion</div>
+
+        </div>
+
+    </section>
+
+    <section class="glass-card">
+
+        <h2>📈 Performance Analytics</h2>
+
+        <div class="analytics-grid">
+
+            <div class="analytics-card">
+                IQ Score : 132
+            </div>
+
+            <div class="analytics-card">
+                Accuracy : 91%
+            </div>
+
+            <div class="analytics-card">
+                Speed : 88%
+            </div>
+
+            <div class="analytics-card">
+                Global Rank : #17
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="glass-card">
+
+        <h2>🤖 AI Quiz Assistant</h2>
+
+        <input
+            id="aiInput"
+            placeholder="Ask AI..."
+        >
+
+        <button onclick="askAI()">
+            Ask AI
+        </button>
+
+    </section>
+
+</main>
+
+<div id="toast"></div>
+
+<script src="smart-quiz-iq.js"></script>
+
+</body>
+</html>
