@@ -213,6 +213,433 @@ answer:"125"
 
 };
 
+puzzle:[
+
+{
+question:"I have keys but no locks. I have space but no room. What am I?",
+options:["Keyboard","House","Car","Phone"],
+answer:"Keyboard"
+},
+
+{
+question:"What has hands but cannot clap?",
+options:["Clock","Robot","Monkey","Toy"],
+answer:"Clock"
+},
+
+{
+question:"What gets wetter as it dries?",
+options:["Towel","Water","Rain","Soap"],
+answer:"Towel"
+},
+
+{
+question:"Which word becomes shorter when you add two letters?",
+options:["Short","Long","Small","Tall"],
+answer:"Short"
+},
+
+{
+question:"What comes once in a minute, twice in a moment, never in a thousand years?",
+options:["M","A","T","N"],
+answer:"M"
+},
+
+{
+question:"What has one eye but cannot see?",
+options:["Needle","Cat","Cyclops","Camera"],
+answer:"Needle"
+},
+
+{
+question:"Forward I am heavy, backward I am not. What am I?",
+options:["Ton","Stone","Rock","Iron"],
+answer:"Ton"
+},
+
+{
+question:"What has a neck but no head?",
+options:["Bottle","Shirt","Snake","Tree"],
+answer:"Bottle"
+},
+
+{
+question:"Which month has 28 days?",
+options:["February","All Months","January","June"],
+answer:"All Months"
+},
+
+{
+question:"What has four wheels and flies?",
+options:["Garbage Truck","Car","Bus","Train"],
+answer:"Garbage Truck"
+}
+
+],
+
+brain:[
+
+{
+question:"What is 11 × 11?",
+options:["111","121","131","141"],
+answer:"121"
+},
+
+{
+question:"If today is Monday, what day comes after 10 days?",
+options:["Thursday","Friday","Saturday","Sunday"],
+answer:"Thursday"
+},
+
+{
+question:"Which number is missing? 2,4,6,8,?",
+options:["9","10","12","14"],
+answer:"10"
+},
+
+{
+question:"How many sides do two triangles have together?",
+options:["5","6","7","8"],
+answer:"6"
+},
+
+{
+question:"Which is fastest?",
+options:["Light","Sound","Train","Car"],
+answer:"Light"
+},
+
+{
+question:"What is the square root of 81?",
+options:["8","9","10","11"],
+answer:"9"
+},
+
+{
+question:"5+5+5+5=?",
+options:["15","20","25","30"],
+answer:"20"
+},
+
+{
+question:"Which is bigger?",
+options:["0.9","0.99","0.999","0.9999"],
+answer:"0.9999"
+},
+
+{
+question:"How many hours in 2 days?",
+options:["24","36","48","72"],
+answer:"48"
+},
+
+{
+question:"What is half of 90?",
+options:["35","40","45","50"],
+answer:"45"
+}
+
+],
+
+stem:[
+
+{
+question:"STEM stands for?",
+options:[
+"Science Technology Engineering Mathematics",
+"Science Teaching English Math",
+"Study Tech Engineering Model",
+"None"
+],
+answer:"Science Technology Engineering Mathematics"
+},
+
+{
+question:"Water freezes at?",
+options:["0°C","10°C","50°C","100°C"],
+answer:"0°C"
+},
+
+{
+question:"Planet known as Red Planet?",
+options:["Earth","Mars","Venus","Jupiter"],
+answer:"Mars"
+},
+
+{
+question:"Robot is controlled by?",
+options:["Programming","Magic","Fuel","Paint"],
+answer:"Programming"
+},
+
+{
+question:"Which gas do plants absorb?",
+options:["Oxygen","Hydrogen","Carbon Dioxide","Nitrogen"],
+answer:"Carbon Dioxide"
+},
+
+{
+question:"How many planets in solar system?",
+options:["7","8","9","10"],
+answer:"8"
+},
+
+{
+question:"Which is a renewable energy source?",
+options:["Coal","Solar","Diesel","Petrol"],
+answer:"Solar"
+},
+
+{
+question:"CPU means?",
+options:[
+"Central Processing Unit",
+"Computer Power Unit",
+"Central Program Unit",
+"Control Processing Unit"
+],
+answer:"Central Processing Unit"
+},
+
+{
+question:"Largest organ in human body?",
+options:["Heart","Skin","Brain","Liver"],
+answer:"Skin"
+},
+
+{
+question:"Which science studies living things?",
+options:["Physics","Chemistry","Biology","Astronomy"],
+answer:"Biology"
+}
+
+],
+
+ai:[
+
+{
+question:"AI stands for?",
+options:[
+"Artificial Intelligence",
+"Automated Internet",
+"Advanced Interface",
+"Artificial Integration"
+],
+answer:"Artificial Intelligence"
+},
+
+{
+question:"ChatGPT is an example of?",
+options:[
+"AI Assistant",
+"Calculator",
+"Browser",
+"Operating System"
+],
+answer:"AI Assistant"
+},
+
+{
+question:"AI learns from?",
+options:[
+"Data",
+"Magic",
+"Electricity",
+"Paint"
+],
+answer:"Data"
+},
+
+{
+question:"Which company created ChatGPT?",
+options:[
+"Google",
+"Microsoft",
+"OpenAI",
+"Apple"
+],
+answer:"OpenAI"
+},
+
+{
+question:"AI can help in?",
+options:[
+"Education",
+"Healthcare",
+"Business",
+"All of These"
+],
+answer:"All of These"
+},
+
+{
+question:"Machine Learning is a part of?",
+options:[
+"AI",
+"Math",
+"Physics",
+"Biology"
+],
+answer:"AI"
+},
+
+{
+question:"AI chatbot communicates using?",
+options:[
+"Language",
+"Fuel",
+"Paint",
+"Wood"
+],
+answer:"Language"
+},
+
+{
+question:"AI uses patterns in?",
+options:[
+"Data",
+"Water",
+"Food",
+"Paper"
+],
+answer:"Data"
+},
+
+{
+question:"Which field uses AI heavily?",
+options:[
+"Robotics",
+"Agriculture",
+"Medicine",
+"All of These"
+],
+answer:"All of These"
+},
+
+{
+question:"Future technology?",
+options:[
+"AI",
+"Stone Tools",
+"Typewriter",
+"Cassette"
+],
+answer:"AI"
+}
+
+],
+
+space:[
+
+{
+question:"Closest star to Earth?",
+options:[
+"Sun",
+"Sirius",
+"Polaris",
+"Alpha Centauri"
+],
+answer:"Sun"
+},
+
+{
+question:"First man on Moon?",
+options:[
+"Neil Armstrong",
+"Buzz Aldrin",
+"Yuri Gagarin",
+"Kalpana Chawla"
+],
+answer:"Neil Armstrong"
+},
+
+{
+question:"Earth is the ___ planet from Sun.",
+options:["2nd","3rd","4th","5th"],
+answer:"3rd"
+},
+
+{
+question:"Largest planet?",
+options:[
+"Earth",
+"Mars",
+"Jupiter",
+"Saturn"
+],
+answer:"Jupiter"
+},
+
+{
+question:"Galaxy containing Earth?",
+options:[
+"Milky Way",
+"Andromeda",
+"Whirlpool",
+"Sombrero"
+],
+answer:"Milky Way"
+},
+
+{
+question:"Planet with rings?",
+options:[
+"Saturn",
+"Mars",
+"Venus",
+"Mercury"
+],
+answer:"Saturn"
+},
+
+{
+question:"ISRO belongs to?",
+options:[
+"India",
+"USA",
+"Russia",
+"Japan"
+],
+answer:"India"
+},
+
+{
+question:"Moon revolves around?",
+options:[
+"Earth",
+"Sun",
+"Mars",
+"Venus"
+],
+answer:"Earth"
+},
+
+{
+question:"Astronomy studies?",
+options:[
+"Space",
+"Animals",
+"Plants",
+"Chemicals"
+],
+answer:"Space"
+},
+
+{
+question:"Rocket launches into?",
+options:[
+"Ocean",
+"Space",
+"Forest",
+"Desert"
+],
+answer:"Space"
+}
+
+],
+
+
+
 /* =====================================
    VARIABLES
 ===================================== */
